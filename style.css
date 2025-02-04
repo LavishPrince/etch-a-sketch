@@ -5,10 +5,7 @@
 }
 
 .container {
+  height: 960px;
+  width: 960px;
   border: 1px gray solid;
-}
-
-.pixel {
-  width: 0.5rem;
-  height: 0.5rem;
 }
