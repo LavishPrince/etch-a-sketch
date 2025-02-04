@@ -3,3 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
+.container {
+  border: 1px gray solid;
+}
+
+.pixel {
+  width: 0.5rem;
+  height: 0.5rem;
+}
