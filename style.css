@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+.container,
+.row {
+  display: flex;
+}
+
 .container {
   height: 960px;
   width: 960px;
