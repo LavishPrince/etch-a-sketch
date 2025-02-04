@@ -9,3 +9,8 @@
   width: 960px;
   border: 1px gray solid;
 }
+
+.container,
+.row {
+  display: flex;
+}
