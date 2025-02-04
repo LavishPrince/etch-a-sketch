@@ -13,9 +13,8 @@
   height: 960px;
   width: 960px;
   border: 1px gray solid;
+  flex-direction: column;
 }
-
-.container,
 .row {
   display: flex;
 }
