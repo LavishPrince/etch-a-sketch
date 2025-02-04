@@ -1,4 +1,4 @@
-function creatCanvas(rows, columns) {
+function createCanvas(rows, columns) {
   container.innerHTML = "";
   for (let i = 0; i < rows; i++) {
     const rowElement = document.createElement("div");
@@ -11,8 +11,20 @@ function creatCanvas(rows, columns) {
     container.appendChild(rowElement);
   }
 }
-const container = document.querySelector(".container");
 
-let rows = 16;
-let columns = 16;
-creatCanvas(rows, columns);
+function setSize(event) {
+  const size = parseInt(prompt("The pixels size that you want less than 100"));
+  if (isNaN(size) || size > 100) return setSize(event);
+  createCanvas(size, size);
+}
+
+const container = document.querySelector(".container");
+const setSizeButton = document.querySelector(".canvas-size");
+
+setSizeButton.addEventListener("click", (e) => {
+  setSize(e);
+});
+
+const rows = 16;
+const columns = 16;
+createCanvas(rows, columns);
