@@ -10,9 +10,9 @@
 }
 
 .container {
-  height: 960px;
-  width: 960px;
-  border: 1px gray solid;
+  height: 700px;
+  width: 700px;
+  border: 1px black solid;
   flex-direction: column;
 }
 .row {
