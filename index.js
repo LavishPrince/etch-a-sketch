@@ -10,5 +10,6 @@ for (let i = 0; i < rows; i++) {
     columnElement.classList.add("pixel");
     rowElement.appendChild(columnElement);
   }
+  rowElement.classList.add("row");
   container.appendChild(rowElement);
 }
